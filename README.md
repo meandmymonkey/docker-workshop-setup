@@ -1,4 +1,4 @@
-This is the setup for my docker workshop at PHPNW14.
+This is the setup for my docker workshop at PHPBenelux 2015.
 
 
 ## Requirements
@@ -41,13 +41,13 @@ If you have problems with the download during ```vagrant up```, you might want
 to get the box files manually and then add them to your host. Between steps #1
 and #2 above, please download both boxes from
 
-- http://static.inputrequired.org/phpnw14/phpnw14-services.box
-- http://static.inputrequired.org/phpnw14/phpnw14-playground.box
+- http://static.inputrequired.org/phpbnl15/dockerworkshop-phpbnl15-services.box
+- http://static.inputrequired.org/phpbnl15/dockerworkshop-phpbnl15-playground.box
 
 Then, manually add the boxes to Vagrant:
 
-    $ vagrant box add --name phpnw14-services /path/to/phpnw14-services.box
-    $ vagrant box add --name phpnw14-playground /path/to/phpnw14-playground.box
+    $ vagrant box add --name phpbnl15-services /dockerworkshop-phpbnl15-services.box
+    $ vagrant box add --name phpbnl15-playground /path/to/dockerworkshop-phpbnl15-playground.box
 
 After the boxes have been added, continue at step #2.
 
