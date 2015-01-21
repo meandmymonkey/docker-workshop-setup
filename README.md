@@ -10,6 +10,7 @@ For the workshop, you should come equipped with:
 - A current version of [Virtualbox](https://www.virtualbox.org/) (tested with 4.3.16)
 - Being able to connect to vagrant boxes through SSH - if you are using Windows, you may need something like PuTTy for this
 - Basic knowledge how to operate the above, and some Linux shell commands
+- 10GB free space on your filesystem (this is just temporary for the workshop)
 
 
 ## Preparation
